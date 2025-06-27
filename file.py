@@ -32,7 +32,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("🧠 AI Resume Builder Ultra")
+st.title("🧠 AI Resume Builder")
 st.markdown("#### ✨ Create an impressive, professional resume in minutes using smart automation and beautiful formatting.")
 
 # Personal Section

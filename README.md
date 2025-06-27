@@ -1,9 +1,29 @@
 
 # 🧠 AI Resume Builder
 
-**AI Resume Builder** is a modern and interactive Streamlit web app that helps users generate professional, beautifully formatted resumes in `.docx` and `.pdf` formats — within minutes.
+**AI Resume Builder** is a smart, modern, interactive web application built with Python and Streamlit that enables users to effortlessly create professional resumes in both Word (.docx) and PDF (.pdf) formats within minutes.
+
+It serves as a form-driven resume generator, where users input personal information, skills, experience, education, certifications, and leadership roles — and the app formats that input into a beautifully styled and downloadable resume document.
 
 Designed for professionals, job seekers, and students, the app offers smart resume customization with an intuitive user interface and real-time preview generation.
+
+---
+
+This AI-enabled resume builder I built can be accessed live [here](https://buildcv.streamlit.app/)
+
+---
+
+## 📬 Author
+
+**Gbenga Kajola**
+
+[LinkedIn](https://www.linkedin.com/in/kajolagbenga)
+
+[Certified_Data_Scientist](https://www.datacamp.com/certificate/DSA0012312825030)
+
+[Certified_Data_Analyst](https://www.datacamp.com/certificate/DAA0018583322187)
+
+[Certified_SQL_Database_Programmer](https://www.datacamp.com/certificate/SQA0019722049554)
 
 ---
 
@@ -38,7 +58,7 @@ Designed for professionals, job seekers, and students, the app offers smart resu
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ai-resume-builder-ultra.git
+git clone https://github.com/prodigy234/AI-enabled-Resume-Builder.git
 cd ai-resume-builder-ultra
 ```
 
@@ -98,28 +118,13 @@ if st.button("🚀 Generate My Resume"):
 
 ---
 
-## 👨‍💻 About the Developer
-
-**Kajola Gbenga**
-
-📇 Certified Data Analyst | Certified Data Scientist | Certified SQL Programmer | Mobile App Developer | AI/ML Engineer
-
-- 🔗 [LinkedIn](https://www.linkedin.com/in/kajolagbenga)  
-- 📜 [Certifications & Licences](https://www.datacamp.com/portfolio/kgbenga234)  
-- 💻 [GitHub](https://github.com/prodigy234)  
-- 🌐 [Portfolio](https://kajolagbenga.netlify.app/)  
-- 📧 Email: k.gbenga234@gmail.com
-
----
-
 ## ✅ License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This project is open-source and available under the MIT License © Kajola Gbenga 2025.
 
 ---
 
 ## 💬 Feedback & Contributions
 
 Pull requests and issues are welcome. If you'd like to contribute, please fork the repo and submit a PR.
-
 ---
