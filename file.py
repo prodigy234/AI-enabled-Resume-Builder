@@ -38,25 +38,25 @@ st.markdown("#### ✨ Create an impressive, professional resume in minutes using
 # Personal Section
 st.sidebar.header("👤 Personal Info")
 with st.sidebar:
-    name = st.text_input("Full Name", "Kajola Gbenga")
-    email = st.text_input("Email", "k.gbenga234@gmail.com")
-    phone = st.text_input("Phone", "09038780790")
-    location = st.text_input("Location", "Oyo, Nigeria")
-    linkedin = st.text_input("LinkedIn URL", "https://linkedin.com")
+    name = st.text_input("Full Name", "")
+    email = st.text_input("Email", "")
+    phone = st.text_input("Phone", "")
+    location = st.text_input("Location", "")
+    linkedin = st.text_input("LinkedIn URL", "")
 
 # Main Form Sections
 st.markdown("---")
 st.subheader("📝 Professional Summary")
-summary = st.text_area("Write a short professional summary", "An awesome data analyst with an exceptional track record.", height=120)
+summary = st.text_area("Write a short professional summary", "", height=120)
 
 st.subheader("💡 Core Skills")
 cols = st.columns(2)
 with cols[0]:
-    prog_skills = st.text_input("Programming Languages (comma-separated)", "Python, JavaScript, SQL").split(',')
-    viz_tools = st.text_input("Visualization Tools", "Seaborn, Matplotlib").split(',')
+    prog_skills = st.text_input("Programming Languages (comma-separated)", "").split(',')
+    viz_tools = st.text_input("Visualization Tools", "").split(',')
 with cols[1]:
-    ml_skills = st.text_input("ML & AI Libraries", "Tensorflow, Random Forest").split(',')
-    db_tools = st.text_input("Databases & Tools", "MySQL, PostgreSQL").split(',')
+    ml_skills = st.text_input("ML & AI Libraries", "").split(',')
+    db_tools = st.text_input("Databases & Tools", "").split(',')
 
 st.markdown("---")
 st.subheader("💼 Work Experience")
@@ -64,21 +64,21 @@ exp_count = st.slider("How many jobs have you had?", 1, 5, 2)
 experiences = []
 for i in range(exp_count):
     with st.expander(f"Experience #{i+1}"):
-        title = st.text_input(f"Job Title {i+1}", f"Data Analyst", key=f"title{i}")
-        company = st.text_input(f"Company {i+1}", "Freelance", key=f"company{i}")
-        dates = st.text_input(f"Dates {i+1}", "Feb 2021 - Aug 2022", key=f"dates{i}")
-        details = st.text_area(f"Achievements {i+1} (comma-separated)", "Built dashboards, Analyzed trends", key=f"details{i}").split(',')
+        title = st.text_input(f"Job Title {i+1}", f"", key=f"title{i}")
+        company = st.text_input(f"Company {i+1}", "", key=f"company{i}")
+        dates = st.text_input(f"Dates {i+1}", "", key=f"dates{i}")
+        details = st.text_area(f"Achievements {i+1} (comma-separated)", "", key=f"details{i}").split(',')
         experiences.append({"title": title, "company": company, "dates": dates, "details": details})
 
 st.markdown("---")
 st.subheader("🎓 Education")
-edu = st.text_area("Your Education Info", "BSc, Olabisi Onabanjo University, 2011 - 2015", height=80)
+edu = st.text_area("Your Education Info", "", height=80)
 
 st.subheader("📜 Certifications")
-certs = st.text_area("List your Certifications (comma-separated)", "Google Data Analytics, IBM Data Science").split(',')
+certs = st.text_area("List your Certifications (comma-separated)", "").split(',')
 
 st.subheader("🌍 Leadership & Community Engagement")
-leadership = st.text_area("Mention any Leadership or Volunteer roles (comma-separated)", "Data mentor, Open source contributor").split(',')
+leadership = st.text_area("Mention any Leadership or Volunteer roles (comma-separated)", "").split(',')
 
 # Resume Generation Logic
 def generate_resume():
