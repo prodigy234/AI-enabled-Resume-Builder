@@ -19,11 +19,6 @@ Designed for professionals, job seekers, and students, the app offers smart resu
 
 ---
 
-## 📸 Screenshot
-
-*(Optional: Add screenshots of the app here)*
-
----
 
 ## 🛠️ Tech Stack
 
@@ -79,7 +74,7 @@ This will launch the app in your default web browser.
 ## 📁 File Structure
 
 ```
-├── app.py                     # Main Streamlit App
+├── file.py                     # Main Streamlit App
 ├── My image6.jpg              # Developer Image (for footer)
 ├── requirements.txt           # Package dependencies
 └── README.md                  # This file
