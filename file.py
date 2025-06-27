@@ -5,7 +5,7 @@ from datetime import datetime
 from fpdf import FPDF
 import base64
 
-st.set_page_config(page_title="AI Resume Builder Ultra", page_icon="🧠", layout="wide")
+st.set_page_config(page_title="AI Resume Builder", page_icon="🧠", layout="wide")
 
 # Custom Theme and Styling
 st.markdown("""
