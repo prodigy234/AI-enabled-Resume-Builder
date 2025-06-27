@@ -1,0 +1,4 @@
+streamlit
+python-docx
+fpdf
+Pillow
